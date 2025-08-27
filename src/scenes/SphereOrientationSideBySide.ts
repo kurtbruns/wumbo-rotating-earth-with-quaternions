@@ -1,8 +1,7 @@
-import { Circle, Group, interpolateColor, Point, Quaternion, Scene3D, Tex, Vector2, Vector3 } from "../vector/src";
-import { CoordinateSystem3D } from "../vector/src/quaternions/CoordinateSystem3D";
-import { QObject } from "../vector/src/quaternions/QObject";
-import { Sphere } from "../vector/src/quaternions/Sphere";
-import { ScenePlayer } from "../vector/src/ScenePlayer";
+import { Circle, Group, interpolateColor, Point, Quaternion, Scene3D, Tex, Vector2, Vector3 } from '@kurtbruns/vector';
+import { CoordinateSystem3D } from '@kurtbruns/vector/dist/lib/quaternions/CoordinateSystem3D';
+import { Sphere } from '@kurtbruns/vector/dist/lib/quaternions/Sphere';
+import { ScenePlayer } from '@kurtbruns/vector';
 
 type SphereOrientationSideBySideConfig = {
     leftQ?: Quaternion;

@@ -1,4 +1,4 @@
-import { Circle, Group, interpolateColor, Line, Path, Quaternion, Scene3D, Tex, Value, Vector2, Vector3 } from "../../vector/src";
+import { Circle, Group, interpolateColor, Line, Path, Quaternion, Scene3D, Tex, Value, Vector2, Vector3 } from '@kurtbruns/vector';
 import { SphereScene } from "../SphereScene";
 
 export class SphereSceneSplit extends SphereScene {

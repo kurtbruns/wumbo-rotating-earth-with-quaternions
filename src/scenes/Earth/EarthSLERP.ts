@@ -1,4 +1,4 @@
-import { Quaternion, Scene3D, Value, Vector2, Vector3 } from "../../vector/src";
+import { Quaternion, Scene3D, Value, Vector2, Vector3 } from '@kurtbruns/vector';
 import { EarthScene } from "../EarthScene";
 
 export class EarthSLERP extends EarthScene {

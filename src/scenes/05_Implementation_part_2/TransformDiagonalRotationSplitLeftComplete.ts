@@ -1,4 +1,4 @@
-import { Tex, Value, Vector3 } from "../../vector/src";
+import { Tex, Value, Vector3 } from '@kurtbruns/vector';
 import { TransformScene } from "./TransformScene";
 
 export class TransformDiagonalRotationSplitLeftComplete extends TransformScene {

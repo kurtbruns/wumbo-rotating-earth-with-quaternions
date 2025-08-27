@@ -1,4 +1,4 @@
-import { Point, Quaternion, Value } from "../../vector/src";
+import { Point, Quaternion, Value } from '@kurtbruns/vector';
 import { MapMouseToPointAndRotate } from "../06_RotateEarth/MapMouseToPointAndRotate";
 import { EarthOrientationUtils } from "../EarthOrientationUtils";
 

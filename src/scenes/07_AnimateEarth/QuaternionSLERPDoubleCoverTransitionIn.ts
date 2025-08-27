@@ -1,4 +1,4 @@
-import { Quaternion, Value, Vector3 } from "../../vector/src";
+import { Quaternion, Value, Vector3 } from '@kurtbruns/vector';
 import { SphereOrientationSideBySide } from "../SphereOrientationSideBySide";
 import { LEFT_Q_VALUE, RIGHT_Q_VALUE } from "./QuaternionValues";
 

@@ -1,4 +1,4 @@
-import { Group, interpolateColor, Quaternion, Vector2, Vector3 } from "../../vector/src";
+import { Group, interpolateColor, Quaternion, Vector2, Vector3 } from '@kurtbruns/vector';
 import { SphereScene } from "../SphereScene";
 
 export class CombinedRotations extends SphereScene {

@@ -1,4 +1,4 @@
-import { Line, Quaternion, Vector3 } from "../../vector/src";
+import { Line, Quaternion, Vector3 } from '@kurtbruns/vector';
 import { SphereScene } from "../SphereScene";
 
 export class AxisOfRotationUnitTest2 extends SphereScene {

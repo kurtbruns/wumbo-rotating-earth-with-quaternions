@@ -1,4 +1,4 @@
-import { interpolateColor, Quaternion, Scene3D, StringValue, Value, Vector2, Vector3 } from "../../vector/src";
+import { interpolateColor, Quaternion, Scene3D, StringValue, Value, Vector2, Vector3 } from '@kurtbruns/vector';
 import { LEFT_Q_VALUE } from "../07_AnimateEarth/QuaternionValues";
 import { EarthOrientationUtils } from "../EarthOrientationUtils";
 import { EarthScene } from "../EarthScene";

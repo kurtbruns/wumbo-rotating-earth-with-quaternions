@@ -1,5 +1,5 @@
 import { RotateEarth } from "./RotateEarth";
-import { Quaternion } from "../../vector/src";
+import { Quaternion } from '@kurtbruns/vector';
 import { SECOND_DRAG_MOUSE_START_X, SECOND_DRAG_MOUSE_START_Y, SECOND_DRAG_MOUSE_END_X, SECOND_DRAG_MOUSE_END_Y } from "./mousePositions";
 
 export class CalculateRotationCones extends RotateEarth {

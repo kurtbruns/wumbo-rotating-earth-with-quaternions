@@ -1,4 +1,4 @@
-import { CoordinateSystem, Quaternion, ScenePlayer, Tex, Vector3 } from "../../vector/src";
+import { CoordinateSystem, Quaternion, ScenePlayer, Tex, Vector3 } from '@kurtbruns/vector';
 
 export class QuaternionMultiplication extends ScenePlayer {
 

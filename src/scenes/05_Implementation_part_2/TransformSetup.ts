@@ -1,4 +1,4 @@
-import { Group, interpolateColor, Line, Quaternion, Tex, Vector2, Vector3 } from "../../vector/src";
+import { Group, interpolateColor, Line, Quaternion, Tex, Vector2, Vector3 } from '@kurtbruns/vector';
 import { TransformScene } from "./TransformScene";
 
 export class TransformSetup extends TransformScene {

@@ -1,4 +1,4 @@
-import { Group, Quaternion, Vector3 } from "../../vector/src";
+import { Group, Quaternion, Vector3 } from '@kurtbruns/vector';
 import { SphereOrientationSideBySide } from "../SphereOrientationSideBySide";
 
 export class CombinedRotationsSideBySide extends SphereOrientationSideBySide {

@@ -2,7 +2,7 @@ import { IsolateOtherRotation } from "./IsolateOtherRotation";
 import { QuaternionVectorProduct } from "./QuaternionVectorProduct";
 import { VisualizeTwoRotationsDiagonalAxis } from "./VisualizeTwoRotationsDiagonalAxis";
 import { RotateAroundYAxis } from "./RotateAroundYAxis";
-import { Vector3 } from "../../vector/src";
+import { Vector3 } from '@kurtbruns/vector';
 import { IsolateOtherRotationNormalizeCube } from "./IsolateOtherRotationNormalizeCube";
 import { DiagonalRotationCubeSplit } from "./DiagonalRotationCubeSplit";
 import { DiagonalRotationCubeFull } from "./DiagonalRotationCubeFull";

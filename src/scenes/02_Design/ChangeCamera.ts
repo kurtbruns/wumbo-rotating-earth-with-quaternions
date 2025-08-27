@@ -1,5 +1,5 @@
 
-import { Quaternion, Vector3 } from "../../vector/src";
+import { Quaternion, Vector3 } from '@kurtbruns/vector';
 import { SphereSceneDuplicate } from "./SphereSceneDuplicate";
 
 

@@ -1,4 +1,4 @@
-import { Path, Quaternion, Scene3D, Vector3 } from "../vector/src";
+import { Path, Quaternion, Scene3D, Vector3 } from '@kurtbruns/vector';
 
 
 export class PropCamera {

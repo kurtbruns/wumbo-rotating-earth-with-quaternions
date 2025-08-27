@@ -1,4 +1,4 @@
-import { Circle, Group, Line, Path, Quaternion, Scene3D, Tex, Value, Vector2, Vector3, interpolateColor } from "../vector/src";
+import { Circle, Group, Line, Path, Quaternion, Scene3D, Tex, Value, Vector2, Vector3, interpolateColor } from '@kurtbruns/vector';
 
 export interface QSceneConfig {
     drawAxes?: boolean,

@@ -1,4 +1,4 @@
-import { Quaternion, Tex, Vector3 } from "../../vector/src";
+import { Quaternion, Tex, Vector3 } from '@kurtbruns/vector';
 import { SphereSceneSplit } from "./SphereSceneSplit";
 
 

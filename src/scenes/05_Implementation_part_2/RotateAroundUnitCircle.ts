@@ -1,6 +1,4 @@
-import { CoordinateSystem, interpolateColor, Plot, Point, ScenePlayer, Value } from "../../vector/src";
-import { PlotContainer } from "../../vector/src/PlotContainer";
-
+import { interpolateColor, Plot, Point, ScenePlayer, Value } from '@kurtbruns/vector';
 
 export class RotateAroundUnitCircle extends ScenePlayer {
     plot: Plot;

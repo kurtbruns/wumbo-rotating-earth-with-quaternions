@@ -1,4 +1,4 @@
-import { Quaternion, Vector3, Point, Circle, Vector2, Line, Value, Path, interpolateColor, Group} from "../../vector/src";
+import { Quaternion, Vector3, Point, Circle, Vector2, Line, Value, Path, interpolateColor, Group} from '@kurtbruns/vector';
 import { EarthScene } from "../EarthScene";
 
 export interface MapMouseToPointAndRotateOptions {

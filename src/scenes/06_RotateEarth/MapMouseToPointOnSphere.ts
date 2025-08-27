@@ -1,4 +1,4 @@
-import { Quaternion, Vector3, Point, Circle, Vector2, Line, Value} from "../../vector/src";
+import { Quaternion, Vector3, Point, Circle, Vector2, Line, Value} from '@kurtbruns/vector';
 import { EarthScene } from "../EarthScene";
 
 

@@ -1,4 +1,4 @@
-import { Group, interpolateColor, Path, Quaternion, Theme, Value, Vector3 } from "../vector/src";
+import { Group, interpolateColor, Path, Quaternion, Theme, Value, Vector3 } from '@kurtbruns/vector';
 import { SphereScene } from "./SphereScene";
 import { Topology, extractPolygons, positionToVector3 } from './GeoJSONWrapper';
 import Delaunator from "delaunator";

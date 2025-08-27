@@ -1,4 +1,4 @@
-import { Circle, Group, interpolateColor, Quaternion, Value, Vector2, Vector3 } from "../../vector/src";
+import { Circle, Group, interpolateColor, Quaternion, Value, Vector2, Vector3 } from '@kurtbruns/vector';
 import { QScene } from "../QScene";
 
 export interface SphereSceneConfig {

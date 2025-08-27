@@ -1,4 +1,4 @@
-import { Quaternion, Tex, Value, Vector3 } from "../../vector/src";
+import { Quaternion, Tex, Value, Vector3 } from '@kurtbruns/vector';
 import { SphereScene } from "../SphereScene";
 
 export class BasisVectorsCoordinatesTransition extends SphereScene {

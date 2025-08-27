@@ -1,4 +1,4 @@
-// import { Group, Quaternion, Scene3D, Vector3 } from "../vector/src";
+// import { Group, Quaternion, Scene3D, Vector3 } from '@kurtbruns/vector';
 // import { PropCamera } from "./PropCamera";
 // import { QScene } from "./QScene";
 

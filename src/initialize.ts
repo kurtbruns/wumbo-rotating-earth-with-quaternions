@@ -33,7 +33,7 @@ if (window.matchMedia) {
     updateTheme(darkSchemeMediaQuery.matches);
 }
 
-import { ExportTarget, Player, Scene, SceneMode, bundle, download, saveAs } from "./vector/src";
+import { ExportTarget, Player, Scene, SceneMode, bundle, download, saveAs } from '@kurtbruns/vector';
 import JSZip from "jszip";
 
 (window as any).downloadSVG = (id: string) => {

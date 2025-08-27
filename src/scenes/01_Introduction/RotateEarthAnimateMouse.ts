@@ -1,4 +1,4 @@
-import { Point, Value, Vector3 } from "../../vector/src";
+import { Point, Value, Vector3 } from '@kurtbruns/vector';
 import { RotateEarth } from "../06_RotateEarth/RotateEarth";
 import { EarthOrientationUtils } from "../EarthOrientationUtils";
 

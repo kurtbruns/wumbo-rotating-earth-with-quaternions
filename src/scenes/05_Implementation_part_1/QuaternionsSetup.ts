@@ -1,4 +1,4 @@
-import { Quaternion, Vector3 } from "../../vector/src";
+import { Quaternion, Vector3 } from '@kurtbruns/vector';
 import { SphereScene } from "../SphereScene";
 
 export class QuaternionsSetup extends SphereScene {

@@ -1,4 +1,4 @@
-import { interpolateColor, Line, Quaternion, Scene3D, Vector3 } from "../../vector/src";
+import { interpolateColor, Line, Quaternion, Scene3D, Vector3 } from '@kurtbruns/vector';
 import { QScene, QSceneConfig } from "../QScene";
 
 

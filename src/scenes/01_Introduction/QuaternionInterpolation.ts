@@ -1,5 +1,5 @@
-import { Quaternion, Vector3 } from "../../vector/src";
-import { EulerOrder } from "../../vector/src/quaternions/Quaternion";
+import { Quaternion, Vector3 } from '@kurtbruns/vector';
+import { EulerOrder } from '@kurtbruns/vector/dist/lib/quaternions/Quaternion';
 import { EarthScene } from "../EarthScene";
 
 

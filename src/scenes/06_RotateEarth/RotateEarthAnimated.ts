@@ -1,4 +1,4 @@
-import { Quaternion, Vector3, Point, Value, Path, Group } from "../../vector/src";
+import { Quaternion, Vector3, Point, Value, Path, Group } from '@kurtbruns/vector';
 import { RotateEarth } from "./RotateEarth";
 import { SECOND_DRAG_MOUSE_START_X, SECOND_DRAG_MOUSE_START_Y, SECOND_DRAG_MOUSE_END_X, SECOND_DRAG_MOUSE_END_Y } from "./mousePositions";
 

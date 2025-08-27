@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Colors for output
+RED='\033[0;31m'
+YELLOW='\033[1;33m'
+GREEN='\033[0;32m'
+NC='\033[0m' # No Color
+
 # Print the current working directory
 # echo "Current working directory: $(pwd)"
 
@@ -23,6 +29,11 @@ if [ -z "$vector_src_path" ]; then
   echo "Error: 'vector/src' directory not found."
   exit 1
 fi
+
+echo -e "${YELLOW}Converting vector imports to external package format...${NC}"
+echo -e "${YELLOW}Expected format: from \"../vector/src\"${NC}"
+echo -e "${YELLOW}Converting to: from \"@kurtbruns/vector\"${NC}"
+echo
 
 # Print the found vector/src path
 # echo "Found vector/src directory: $vector_src_path"
@@ -50,6 +61,18 @@ find . -type f -name "*.ts" ! -path "*/node_modules/*" | while read -r file; do
   old_import=$(grep -E "import \{([^}]+)\} from ['\"].*vector/src.*" "$file")
   if [[ -n "$old_import" ]]; then
 
+    # Check for problematic imports that don't end with "vector/src"
+    problematic_imports=$(grep -n -E "import \{([^}]+)\} from ['\"].*vector/src[^'\"]*['\"]" "$file" | grep -v -E "from ['\"][^'\"]*vector/src['\"]")
+    if [[ -n "$problematic_imports" ]]; then
+      echo -e "${RED}⚠️  WARNING: Found problematic imports in: ${file}${NC}"
+      echo "$problematic_imports" | while read -r line; do
+        echo -e "  ${YELLOW}Line ${line}${NC}"
+      done
+      echo -e "${YELLOW}Expected format: from \"../vector/src\"${NC}"
+      echo -e "${YELLOW}Problematic format: from \"../vector/src/quaternions/QObject\"${NC}"
+      echo
+    fi
+
     # Uncomment the following lines for testing
     # new_import=$(echo "$old_import" | sed "s|from ['\"].*vector/src.*|from '@kurtbruns/vector';|g")
     # echo "File: $file"
@@ -61,8 +84,8 @@ find . -type f -name "*.ts" ! -path "*/node_modules/*" | while read -r file; do
     sed -i '' -E "s|import \{([^}]+)\} from ['\"].*vector/src.*|import {\1} from '@kurtbruns/vector';|g" "$file"
 
     # Print the file that had its imports replaced
-    echo "Replaced imports in: $file"
+    echo -e "${GREEN}Replaced imports in: $file${NC}"
   fi
 done
 
-echo "Replacement complete."
+echo -e "${GREEN}Replacement complete.${NC}"

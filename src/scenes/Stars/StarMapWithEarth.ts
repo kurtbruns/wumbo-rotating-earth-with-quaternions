@@ -1,4 +1,4 @@
-import { Circle, Point, Quaternion, Scene3D, StringValue, Vector3 } from "../../vector/src";
+import { Circle, Point, Quaternion, Scene3D, StringValue, Vector3 } from '@kurtbruns/vector';
 import { EarthScene } from "../EarthScene";
 import { latLongToVector3 } from "./StarMap";
 

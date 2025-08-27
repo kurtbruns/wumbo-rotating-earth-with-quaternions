@@ -1,4 +1,4 @@
-import { Quaternion, Vector3 } from "../vector/src";
+import { Quaternion, Vector3 } from '@kurtbruns/vector';
 
 export interface LatLong {
     [key: string]: [number, number];

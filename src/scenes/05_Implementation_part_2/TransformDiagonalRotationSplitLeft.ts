@@ -1,4 +1,4 @@
-import { interpolateColor, Line, Quaternion, Tex, Value, Vector3 } from "../../vector/src";
+import { interpolateColor, Line, Quaternion, Tex, Value, Vector3 } from '@kurtbruns/vector';
 import { TransformScene } from "./TransformScene";
 
 export class TransformDiagonalRotationSplitLeft extends TransformScene {

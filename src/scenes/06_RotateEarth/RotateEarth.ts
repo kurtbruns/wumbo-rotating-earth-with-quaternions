@@ -1,4 +1,4 @@
-import { Quaternion, Vector3, Line, Group, Vector2, interpolateColor, Tex, Value, Point } from "../../vector/src";
+import { Quaternion, Vector3, Line, Group, Vector2, interpolateColor, Tex, Value, Point } from '@kurtbruns/vector';
 import { EarthScene } from "../EarthScene";
 
 

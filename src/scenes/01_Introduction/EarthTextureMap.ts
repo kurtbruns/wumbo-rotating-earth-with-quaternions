@@ -1,5 +1,5 @@
 import Delaunator from "delaunator";
-import { CoordinateSystem, Quaternion, Vector3 } from "../../vector/src";
+import { CoordinateSystem, Quaternion, Vector3 } from '@kurtbruns/vector';
 import { extractPolygons, positionToVector3, Topology } from "../GeoJSONWrapper";
 
 

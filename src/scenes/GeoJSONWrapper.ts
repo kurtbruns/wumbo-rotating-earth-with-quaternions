@@ -1,5 +1,5 @@
 import { Geometry, GeometryCollection, Position } from 'geojson';
-import { Vector3 } from '../vector/src';
+import { Vector3 } from '@kurtbruns/vector';
 
 export type Topology = {
     type: 'Topology';
