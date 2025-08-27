@@ -1,3 +1,3 @@
 
 import './initialize';
-import './main';
+import './scenes';
